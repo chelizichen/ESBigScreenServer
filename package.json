@@ -11,7 +11,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release":"sgrid release:vite -s ESBigScreenServer -d dist  -p /es-big-screen"
   },
   "dependencies": {
     "@amap/amap-jsapi-loader": "^1.0.1",
